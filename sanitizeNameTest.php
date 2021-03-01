@@ -30,7 +30,7 @@
 <?php
 //comando php ... viene eseguito dalla root del progetto
 //percorsi hanno sempre un punto di origine
-require '.\sanitizeName.php';
+require './sanitizeName.php';
 //require './sanitizeName.php';
 $dataset = [
     ['mario','Mario',__LINE__],
